@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 1st Slide */
+#slide1{
+    background-image: url("Images/Netflix-back-1.png");
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -4;
+}
+#netflixtitleicon{
+    background-image: url("Images/netflix-titleicon.png");
+    background-size: cover;
+    height: 110px;
+    width: 150px;
+    z-index: 5;
+    position: relative;
+    top: -30px;
+    left: 150px;
+}
+#lang{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    display: inline-block;
+}
+#butsign{
+    background-color: rgb(229,0,20);
+    border-color: black; 
+    height: 30px;
+    width: 70px;
+    color:white;
+    border-radius: 8px;
+    position: fixed;
+    top: 35px;
+    right: 150px;
+    
+}
+#s01{
+    font-size: 50px; color: white; position:fixed; top: 250px; left: 280px
+}
+#s02{
+    font-size: 30px; color: white; position:fixed; top: 330px; left: 500px
+}
+#s03{
+    font-size: 25px; color: white; position:fixed; top: 390px; left: 350px
+}
+#b01{
+    background-color: rgb(229,0,20);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    height: 54px;
+    border-color: black; 
+    position: fixed;
+    top: 450px;
+    left: 760px;    
+}
+#e01{
+    background-color: rgba(0,0,0,0.5);
+    height: 48px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    width: 350px;
+    border-color: white;
+    position: fixed;
+    top: 450px;
+    left: 400px;
+}
+#sepreator{
+    height: 20px;
+    width: 100vw;
+    background-color: rgba(250,250,250,1);
+    z-index: 5;
+    content: "";
+    position: fixed;
+    top: 800px
+
+}
+
+footer{
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    width: 100vw;
+    height: 5px;
+}
